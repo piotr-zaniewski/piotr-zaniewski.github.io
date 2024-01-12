@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="content-type" content="text/html">
+	<meta name="robots" content="index, follow">
+	<title>Piotr Zaniewski &middot; Full-Stack Web Developer</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+		as="style">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/media.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://unpkg.com/@studio-freight/lenis@1.0.32/dist/lenis.min.js"></script>
+	<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+	<script src="js/tilt.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body class="body">
+	<div class="preloader">
+		<div class="glowing-preloader-circle-2">
+		</div>
+		<div class="preloader-circle-2">
+		</div>
+		<div class="glowing-preloader-circle">
+		</div>
+		<div class="preloader-circle">
+		</div>
+	</div>
+	<div class="light-rays-top"></div>
+	<canvas class="digital-dots-landing"></canvas>
+	<div class="header">
+		<div class="logo"><span>zaniewski.dev</span></div>
+		<div class="navbar">
+			<span class="nav nav-1" data-index="1">Strona główna</span>
+			<span class="nav nav-2" data-index="2">O mnie</span>
+			<span class="nav nav-3" data-index="3">Portfolio</span>
+			<span class="nav nav-4" data-index="4">Kontakt</span>
+			<div class="navbar-indicator"></div>
+		</div>
+	</div>
+	<div class="mobile-header">
+		<div class="mobile-navbar">
+			<div class="logo"><span>zaniewski.dev</span></div>
+			<span class="mobile-nav mobile-nav-1 active" data-index="1">Strona główna</span>
+			<span class="mobile-nav mobile-nav-2" data-index="2">O mnie</span>
+			<span class="mobile-nav mobile-nav-3" data-index="3">Portfolio</span>
+			<span class="mobile-nav mobile-nav-4" data-index="4">Kontakt</span>
+		</div>
+		<div class="mobile-close">
+			<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+				<path fill="currentColor"
+					d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59L7.11 5.7A.996.996 0 1 0 5.7 7.11L10.59 12L5.7 16.89a.996.996 0 1 0 1.41 1.41L12 13.41l4.89 4.89a.996.996 0 1 0 1.41-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4" />
+			</svg>
+		</div>
+		<div class="mobile-open">
+			<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+				<path fill="currentColor" d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z" />
+			</svg>
+		</div>
+	</div>
+	<div class="canvas-bottom-fade"></div>
+	<section class="landing">
+		<div class="landing-item landing-title">
+			<h1>
+				<span class="gradient">Full-Stack Web Developer</span>
+			</h1>
+			<p>
+				Jestem programistą oraz projektantem UX/UI z siedzibą w Polsce.
+				Specjalizuje się przejrzystym oraz łatwym w obsłudze web
+				designem.
+				<br />Posiadam wiele lat doświadczenia we wszystkich obszarach
+				cyfrowych.
+			</p>
+		</div>
+		<div class="landing-item landing-code">
+			<div class="code-wrapper-perspective">
+				<div class="code-wrapper code-wrapper-1">
+					<div class="code-header">Input
+						<div class="code-refresh skills-refresh"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+								viewBox="0 0 24 24">
+								<path fill="currentColor"
+									d="M17.65 6.35A7.958 7.958 0 0 0 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08A5.99 5.99 0 0 1 12 18c-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4z" />
+							</svg>
+						</div>
+					</div>
+					<div class="grid-parent code-block">
+						<div class="grid-child-1 code">1</div>
+						<div class="grid-child-2 code">2</div>
+						<div class="grid-child-3 code">3</div>
+						<div class="grid-child-4 code">4</div>
+						<div class="grid-child-5 code">5</div>
+						<div class="grid-child-6 code">6</div>
+						<div class="grid-child-7 code">7</div>
+						<div class="grid-child-8 code code-orange">
+							const <label class="code-default">piotr</label> =
+							<label class="code-yellow">{</label>
+						</div>
+						<div class="grid-child-9 code code-indent">
+							name:
+							<label class="code-blue">"Piotr Zaniewski"</label>,
+						</div>
+						<div class="grid-child-10 code code-indent">
+							occupation:
+							<label class="code-blue">"Full-Stack Web Developer"</label>,
+						</div>
+						<div class="grid-child-11 code code-indent">
+							description:
+							<label class="code-blue">"Tworzę responsywne strony internetowe oraz
+								aplikacje webowe"</label>,
+						</div>
+						<div class="grid-child-12 code code-indent code-more">
+							<label class="code-comment">···</label>
+						</div>
+						<div class="grid-child-13 code">
+							<label class="code-yellow">}</label>;
+						</div>
+						<div class="grid-child-14 code">
+							<div class="text-block">
+								<span id="typer-1"></span><span class="code-yellow" id="typer-2"></span><span id="typer-3"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="code-wrapper code-wrapper-2 code-output">
+					<div class="code-header">Output</div>
+					<div class="code-block code-skills">
+						<span>HTML</span>
+						<span>CSS</span>
+						<span>JavaScript</span>
+						<span>PHP</span>
+						<span>MYSQL</span>
+						<span>jQuery</span>
+						<span>AJAX</span>
+						<span>Python</span>
+						<span>BootStrap</span>
+						<span>Photoshop</span>
+						<span>After Effects</span>
+						<span>Premiere Pro</span>
+						<span>InkScape</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="experience-wrapper">
+		<div class="experience-item">
+			<div class="title">
+				<canvas class="digital-dots dots-1"></canvas>
+				<span>Pracuję w branży IT od ponad 10 lat</span>
+			</div>
+			<p>
+				Od 2013 roku dostarczam niestandardowe projekty na rynek
+				międzynarodowy.
+			</p>
+			<div class="title-row">
+				<div class="title-item">
+					<span class="title-icon">
+						<img alt=""
+							src="data:image/png;base64,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" />
+					</span>
+					<label>
+						Zajmuję się projektowaniem oraz rozwijaniem stron www,
+						mobilnych aplikacji webowych, paneli administracyjnych.
+					</label>
+				</div>
+				<canvas class="digital-dots dots-2"></canvas>
+				<div class="title-item">
+					<span class="title-icon">
+						<img alt=""
+							src="data:image/png;base64,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" />
+					</span>
+					<label>
+						Projektuję grafikę oraz materiały reklamowe.
+					</label>
+				</div>
+				<div class="title-item">
+					<span class="title-icon">
+						<img alt=""
+							src="data:image/png;base64,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" />
+					</span>
+					<label>
+						Nagrywam oraz montuję filmy 3D zarówno na ekrany kinowe, jak i
+						okulary VR.
+					</label>
+				</div>
+				<div class="title-item">
+					<span class="title-icon">
+						<img alt=""
+							src="data:image/png;base64,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" />
+					</span>
+					<label>
+						Przez ostatnie dwa lata skoncentrowałem się na pracy jako
+						programista Full-Stack.
+					</label>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="portfolio-wrapper">
+		<canvas class="digital-dots dots-3"></canvas>
+		<div class="portfolio-header">
+			<span>Zobacz moje projekty</span>
+			<p>Moje najnowsze realizacje.</p>
+		</div>
+		<div class="portfolio-item">
+			<div class="divider"></div>
+			<span class="project-count-glow"></span>
+			<span class="project-count">01</span>
+			<div class="project-title">Mobilna aplikacja kalendarza</div>
+			<p class="project-description">
+				Mobilna aplikacja webowa do zarządzania biznesem; kalendarz,
+				rezerwacje, obsługa klientów, notatki, przypomnienia o wizycie,
+				podsumowanie wyników sprzedaży.
+			</p>
+			<div class="tags">
+				<div class="row">
+					<span><img alt="" src="img/tags/html5.webp" draggable="false" />HTML</span>
+					<span><img alt="" src="img/tags/css.webp" draggable="false" />CSS</span>
+					<span><img alt="" src="img/tags/js.webp" draggable="false" />JavaScript</span>
+					<span><img alt="" src="img/tags/jquery.webp" draggable="false" />jQuery</span>
+					<span><img alt="" src="img/tags/mysql.webp" draggable="false" />MySQL</span>
+					<span><img alt="" src="img/tags/php.webp" draggable="false" />PHP</span>
+					<span><img alt="" src="img/tags/ajax.webp" draggable="false" />Ajax</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="projects-wrapper">
+		<div class="project-wrapper">
+			<div class="project-item project-left-1">
+				<div class="project-item-description description-1">
+					<span class="title">Wszystkie terminy w jednym miejscu</span><span>Dodawaj, wyświetlaj, zarządzaj,
+						wyszukuj</span>
+				</div>
+			</div>
+			<div class="project-item project-right-1">
+				<div class="project-item-description description-2">
+					<span class="title">Prosty, czytelny design</span><span>Niczego nie pominiesz</span>
+				</div>
+				<div class="phone phone-view-1">
+					<div class="phone-circle"></div>
+					<div class="frame">
+						<video autoplay loop muted playsinline>
+							<source src="videos/showcase_2.mp4" type="video/mp4" />
+						</video>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="project-wrapper">
+			<div class="project-item project-left-2">
+				<div class="project-item-description description-3">
+					<span class="title">Baza danych klientów</span><span>Dzwoń, napisz SMS</span>
+				</div>
+				<div class="phone phone-view-2">
+					<div class="phone-circle"></div>
+					<div class="frame"></div>
+				</div>
+			</div>
+			<div class="project-item project-right-2">
+				<div class="project-item-description description-4">
+					<span class="title">Błyskawiczne powiadomienia, recenzje i wiadomości</span><span>Przypomnij, zapytaj, wyślij
+						powiadomienia</span>
+				</div>
+			</div>
+		</div>
+		<div class="portfolio-item portfolio-item-2">
+			<div class="divider divider-2"></div>
+			<span class="project-count">02</span>
+			<div class="project-title">Panel księgowy</div>
+			<p class="project-description">
+				Panel administracyjny do zarządzania księgowością; łączność z
+				rządowym REST API, system do ewidencji danych firm, zarządzanie
+				użytkownikami, prywatne karty, śledzenie aktywności użytkowników,
+				wysyłanie/pobieranie plików, kalendarz, system notatek oraz
+				powiadomień.
+			</p>
+			<div class="tags">
+				<div class="row">
+					<span><img alt="" src="img/tags/html5.webp" draggable="false" />HTML</span>
+					<span><img alt="" src="img/tags/css.webp" draggable="false" />CSS</span>
+					<span><img alt="" src="img/tags/js.webp" draggable="false" />JavaScript</span>
+					<span><img alt="" src="img/tags/jquery.webp" draggable="false" />jQuery</span>
+					<span><img alt="" src="img/tags/mysql.webp" draggable="false" />MySQL</span>
+					<span><img alt="" src="img/tags/php.webp" draggable="false" />PHP</span>
+					<span><img alt="" src="img/tags/ajax.webp" draggable="false" />Ajax</span>
+					<span><img alt="" src="img/tags/rest.webp" draggable="false" />
+						<label class="text">REST API
+				</div></label>
+			</div>
+		</div>
+		</div>
+		<div class="project-wrapper project-database">
+			<div class="project-item-description description-5">
+				<span class="title">Dynamiczna baza danych firm</span><span>Wyświetlaj, zarządzaj, filtruj, importuj, exportuj,
+					aktualizuj dane</span>
+			</div>
+			<div class="project-item project-center-1 project-tilted">
+				<div class="project-tilted-top-left">
+					<img alt="" src="img/showcase_7.webp" draggable="false" />
+				</div>
+				<div class="project-tilted-bottom-right">
+					<img alt="" src="img/showcase_6.webp" draggable="false" />
+				</div>
+				<img alt="" src="img/showcase_5.webp" draggable="false" />
+			</div>
+		</div>
+		<div class="project-wrapper">
+			<div class="project-center-2">
+				<div class="project-item-description description-6">
+					<span class="title">Pełne zarządzanie użytkownikami</span><span>Dodawaj, usuwaj, edytuj, zmieniaj pozwolenia,
+						sprawdź
+						aktywność</span>
+				</div>
+				<div class="image-row">
+					<div class="project-split project-split-1"></div>
+					<div class="project-split project-split-2"></div>
+				</div>
+			</div>
+		</div>
+		<div class="project-wrapper">
+			<div class="project-center-2">
+				<div class="project-item-description description-7">
+					<span class="title">Kalendarz, notatki, listy zadań i przypomnienia</span><span>Dodawaj, usuwaj, edytuj,
+						dostosuj ustawienia</span>
+				</div>
+				<div class="image-row image-row-2">
+					<div class="project-split project-split-3"></div>
+					<div class="project-split project-split-4"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="footer">
+		<canvas class="digital-dots-footer"></canvas>
+		<div class="footer-item-wrapper">
+			<p>Skontaktuj się ze mną:</p>
+			<div class="title"><span>zaniewski@int.pl</span></div>
+		</div>
+		<div class="footer-item-wrapper">
+			<div class="landing-item landing-code">
+				<div class="code-wrapper-perspective">
+					<div class="code-wrapper code-wrapper-1">
+						<div class="code-header">Input
+							<div class="code-refresh credits-refresh"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+									viewBox="0 0 24 24">
+									<path fill="currentColor"
+										d="M17.65 6.35A7.958 7.958 0 0 0 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08A5.99 5.99 0 0 1 12 18c-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4z" />
+								</svg>
+							</div>
+						</div>
+						<div class="grid-parent code-block">
+							<div class="grid-child-1 code">1</div>
+							<div class="grid-child-2 code">2</div>
+							<div class="grid-child-3 code">3</div>
+							<div class="grid-child-4 code">4</div>
+							<div class="grid-child-5 code">5</div>
+							<div class="grid-child-6 code">6</div>
+							<div class="grid-child-7 code">7</div>
+							<div class="grid-child-8 code code-orange">
+								function
+								<label class="code-yellow">PrintCredits</label><label class="code-default">()</label>
+								<label class="code-yellow">{</label>
+							</div>
+							<div class="grid-child-9 code code-indent">
+								<label class="code-orange">const</label>
+								MadeWithArray
+								<label class="code-orange">=</label>
+								<label class="code-yellow">[</label>
+							</div>
+							<div class="grid-child-10 code code-indent">
+								<label class="code-yellow">{</label> name:
+								<label class="code-blue">"GSAP"</label>, type:
+								<label class="code-blue">"library"</label>, url:
+								<label class="code-blue">"https://gsap.com" </label><label class="code-yellow">}</label>,
+							</div>
+							<div class="grid-child-11 code code-indent">
+								<label class="code-yellow">{</label> name:
+								<label class="code-blue">"jQuery"</label>, type:
+								<label class="code-blue">"library"</label>, url:
+								<label class="code-blue">"https://jquery.com" </label><label class="code-yellow">}</label>,
+							</div>
+							<div class="grid-child-12 code code-indent code-more">
+								<label class="code-comment">···</label>
+								<label class="code-yellow" style="margin-left: 2px">
+									]</label>;
+							</div>
+							<div class="grid-child-13 code">
+								<label class="code-yellow">}</label>
+							</div>
+							<div class="grid-child-14 code">
+								<div class="text-block">
+									<span class="code-yellow" id="typer-4"></span><span id="typer-5"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="code-wrapper code-wrapper-2 code-output-2">
+						<div class="code-header">Output</div>
+						<div class="code-block code-skills">
+							Stworzone przy wykorzystaniu:
+							<span data-url="https://gsap.com">GSAP</span>
+							<span data-url="https://jquery.com">jQuery</span>
+							<span data-url="https://github.com/micku7zu/vanilla-tilt.js">Vanilla-tilt</span>
+							<span data-url="https://github.com/mattboldt/typed.js">Typed</span>
+							<span data-url="https://icons8.com">icons8</span>
+						</div>
+						<div class="code-block code-skills">
+							Stworzone przez:
+							<span data-url="https://github.com/piotr-zaniewski">Piotr Zaniewski</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="made-by"><span>zaniewski.dev</span></div>
+	</section>
+</body>
+</html>
